@@ -2190,6 +2190,14 @@
     "mkdirp" "^1.0.4"
     "rimraf" "^3.0.2"
 
+"@openzeppelin/contract-loader@^0.6.2":
+  "integrity" "sha512-cOFIjBjwbGgZhDZsitNgJl0Ye1rd5yu/Yx5LMgeq3u0ZYzldm4uObzHDFq4gjDdoypvyORjjJa3BlFA7eAnVIg=="
+  "resolved" "https://registry.npmjs.org/@openzeppelin/contract-loader/-/contract-loader-0.6.3.tgz"
+  "version" "0.6.3"
+  dependencies:
+    "find-up" "^4.1.0"
+    "fs-extra" "^8.1.0"
+
 "@openzeppelin/contracts-upgradeable@^4.8.0":
   "integrity" "sha512-5GeFgqMiDlqGT8EdORadp1ntGF0qzWZLmEY7Wbp/yVhN7/B3NNzCxujuI77ktlyG81N3CUZP8cZe3ZAQ/cW10w=="
   "resolved" "https://registry.npmjs.org/@openzeppelin/contracts-upgradeable/-/contracts-upgradeable-4.8.0.tgz"
@@ -2209,6 +2217,22 @@
     "chalk" "^4.1.0"
     "debug" "^4.1.1"
     "proper-lockfile" "^4.1.1"
+
+"@openzeppelin/test-helpers@^0.5.16":
+  "integrity" "sha512-T1EvspSfH1qQO/sgGlskLfYVBbqzJR23SZzYl/6B2JnT4EhThcI85UpvDk0BkLWKaDScQTabGHt4GzHW+3SfZg=="
+  "resolved" "https://registry.npmjs.org/@openzeppelin/test-helpers/-/test-helpers-0.5.16.tgz"
+  "version" "0.5.16"
+  dependencies:
+    "@openzeppelin/contract-loader" "^0.6.2"
+    "@truffle/contract" "^4.0.35"
+    "ansi-colors" "^3.2.3"
+    "chai" "^4.2.0"
+    "chai-bn" "^0.2.1"
+    "ethjs-abi" "^0.2.1"
+    "lodash.flatten" "^4.4.0"
+    "semver" "^5.6.0"
+    "web3" "^1.2.5"
+    "web3-utils" "^1.2.5"
 
 "@openzeppelin/truffle-upgrades@^1.17.0":
   "integrity" "sha512-62g/6di5/YQ/wl1WgBiM3PPZAmzcR6UtP9UWwlSiMohV8lepUF2YDX0QFQ1qr/29KfY351WbCUPohSyf01hNGg=="
@@ -5522,7 +5546,7 @@
   dependencies:
     "nofilter" "^3.1.0"
 
-"chai-bn@^0.2.0":
+"chai-bn@^0.2.0", "chai-bn@^0.2.1":
   "integrity" "sha512-MzjelH0p8vWn65QKmEq/DLBG1Hle4WeyqT79ANhXZhn/UxRWO0OogkAxi5oGGtfzwU9bZR8mvbvYdoqNVWQwFg=="
   "resolved" "https://registry.npmjs.org/chai-bn/-/chai-bn-0.2.2.tgz"
   "version" "0.2.2"
@@ -19481,7 +19505,7 @@
     "randombytes" "^2.1.0"
     "utf8" "3.0.0"
 
-"web3-utils@^1.2.1", "web3-utils@1.7.4":
+"web3-utils@^1.2.1", "web3-utils@^1.2.5", "web3-utils@1.7.4":
   "integrity" "sha512-acBdm6Evd0TEZRnChM/MCvGsMwYKmSh7OaUfNf5OKG0CIeGWD/6gqLOWIwmwSnre/2WrA1nKGId5uW2e5EfluA=="
   "resolved" "https://registry.npmjs.org/web3-utils/-/web3-utils-1.7.4.tgz"
   "version" "1.7.4"
@@ -19573,7 +19597,7 @@
     "web3-shh" "1.8.1"
     "web3-utils" "1.8.1"
 
-"web3@^1.0.0-beta.36", "web3@^1.2.1", "web3@1.8.0":
+"web3@^1.0.0-beta.36", "web3@^1.2.1", "web3@^1.2.5", "web3@1.8.0":
   "integrity" "sha512-sldr9stK/SALSJTgI/8qpnDuBJNMGjVR84hJ+AcdQ+MLBGLMGsCDNubCoyO6qgk1/Y9SQ7ignegOI/7BPLoiDA=="
   "resolved" "https://registry.npmjs.org/web3/-/web3-1.8.0.tgz"
   "version" "1.8.0"
