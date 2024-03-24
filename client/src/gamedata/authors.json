@@ -148,7 +148,7 @@
         "https://www.linkedin.com/in/kstasi/"
       ]
     },
-    "Waiandt": {
+    "Blokas": {
       "name": [
         "D I J M T"
       ],  
@@ -167,11 +167,11 @@
       ],
 
       "donates":[
+        "0x0D0b04a4fd0EEBf6286d8990fF7E0FeC45fc89D8",
         "0x89989fdD659591f0647648cC298bc268a74DB688",
         "0x9530ce0E22fBAcc5e088503f7F0635aF89317569",
         "0xe09d83B92F590194db778a8001533a8456Fc7a27",
-        "0xc9BA203FA87828C9bff612c3EE8DCb5E8B4C415f",
-        "0x0D0b04a4fd0EEBf6286d8990fF7E0FeC45fc89D8"
+        "0xc9BA203FA87828C9bff612c3EE8DCb5E8B4C415f"
       ]
     }
   }
