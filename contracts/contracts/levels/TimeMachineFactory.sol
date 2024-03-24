@@ -17,7 +17,7 @@ contract TimeMachineFactory is Level {
     // Método para validar uma instância de TimeMachine
     function validateInstance(address payable _instance, address _player) override public view returns (bool) {
         TimeMachine instance = TimeMachine(_instance);
-        return instance.owner() == _player;
+        return instance.checkReward(_player);
     }
 }
 //     mapping(address => address) public instances; 
