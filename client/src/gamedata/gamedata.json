@@ -461,6 +461,21 @@
       "deployId": "29",
       "instanceGas": 250000,
       "author": "AgeManning"
+    },
+    {
+      "name": "Time Machine",
+      "created": "2024-03-23",
+      "difficulty": "6",
+      "description": "timemachine.md",
+      "completedDescription": "timemachine_complete.md",
+      "levelContract": "TimeMachineFactory.sol",
+      "instanceContract": "TimeMachine.sol",
+      "revealCode": true,
+      "deployParams": [],
+      "deployFunds": 0,
+      "deployId": "30",
+      "instanceGas": 300000,
+      "author": "D I J M T"
     }
   ]
 }
