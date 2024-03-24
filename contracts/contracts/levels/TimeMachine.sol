@@ -24,5 +24,5 @@ contract TimeMachine {
     
     function checkReward(address _player) public view returns (bool) {
         return points[_player] >= REWARD_THRESHOLD;
-    }
+}
 }
