@@ -234,5 +234,4 @@ function supportedNetworksList(_supportedNetworks) {
     ))}
   </ul>)
 }
-
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App));

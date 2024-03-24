@@ -37,11 +37,10 @@ contract Ethernaut is Ownable {
     mapping(address => bool) public registeredLevels;
 
     // Only registered levels will be allowed to generate and validate level instances.
-    function registerLevel(Level _level) public onlyOwner {
+    function registerLevel(Level _level) external onlyOwner {
         registeredLevels[address(_level)] = true;
         statistics.saveNewLevel(address(_level));
     }
-
     function setStatistics(address _statProxy) external onlyOwner {
         statistics = IStatistics(_statProxy);
     }

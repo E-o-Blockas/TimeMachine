@@ -26,5 +26,5 @@ contract('TimeMachine', function(accounts) {
     // Verificação da solução
     let completed = await level.validateInstance(instance, player);
     assert.equal(completed, true, 'should allow the player to solve the level');
-  });
+});
 });

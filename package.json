@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@openzeppelin/test-helpers": "^0.5.16",
-    "highlight.js": "file:deps/hljs",
+    "highlight.js": "^11.9.0",
     "react": "^18.2.0",
     "react-loader-spinner": "^5.3.4"
   },

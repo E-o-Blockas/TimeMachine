@@ -24,5 +24,10 @@ contract TimeMachine {
     
     function checkReward(address _player) public view returns (bool) {
         return points[_player] >= REWARD_THRESHOLD;
+        
 }
+bool public completed;
+  function setCompleted(bool _completed) public {
+    completed = _completed;
+  }
 }
